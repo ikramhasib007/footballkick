@@ -1,0 +1,35 @@
+{
+  "name": "footballkick",
+  "version": "1.0.0",
+  "description": "simple footballkick chat application built with node, mongodb, express and socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikramhasib007/footballkick.git"
+  },
+  "author": "Ikram Hasib",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikramhasib007/footballkick/issues"
+  },
+  "homepage": "https://github.com/ikramhasib007/footballkick#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^2.0.0",
+    "cookie-parser": "^1.4.3",
+    "dependable": "^1.1.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-promise-router": "^2.0.0",
+    "express-session": "^1.15.6",
+    "express-validator": "^4.3.0",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.13.6",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  }
+}
