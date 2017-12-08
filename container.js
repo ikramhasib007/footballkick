@@ -1,10 +1,13 @@
+/*jshint esversion: 6*/
+
 const dependable = require('dependable');
 const path = require('path');
 
 const container = dependable.container();
 
 const simpleDependencies = [
-	['_', 'lodash']
+	['_', 'lodash'],
+	['passport', 'passport']
 ];
 
 simpleDependencies.forEach(function(val){
